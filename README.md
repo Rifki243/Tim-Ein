@@ -41,6 +41,7 @@ python Ein_code.py
 ### Struktur File
 ```
 ├── Ein_code.py       # Script utama (preprocessing + training + inferensi)
+├── Ein_code.ipynb    # Script utama format colab (jupiter notebook)
 ├── Ein.xlsx          # File prediksi (output)
 └── README.md         # Dokumentasi ini
 ```
