@@ -10,14 +10,14 @@ Pipeline berbasis TF-IDF + Ensemble Machine Learning:
 
 1. **Preprocessing**: lowercase, hapus URL/mention, normalisasi spasi
 2. **Fitur**:
-   - TF-IDF Word n-gram (1–3) — menangkap kata dan frasa penting
-   - TF-IDF Char n-gram (3–5) — robust terhadap typo dan bahasa informal
-   - Keyword features — lexicon domain-specific per kelas (8 kategori)
+   - TF-IDF Word n-gram (1–3) &rarr; menangkap kata dan frasa penting
+   - TF-IDF Char n-gram (3–5) &rarr; robust terhadap typo dan bahasa informal
+   - Keyword features &rarr; lexicon domain-specific per kelas (8 kategori)
 3. **Model**:
    - Logistic Regression (`class_weight='balanced'`)
    - LinearSVC via CalibratedClassifierCV (`class_weight='balanced'`)
 4. **Ensemble**: Weighted average probabilitas (bobot dari CV score)
-5. **Evaluasi**: 5-Fold Stratified Cross-Validation → Balanced Accuracy
+5. **Evaluasi**: 5-Fold Stratified Cross-Validation &rarr; Balanced Accuracy
 
 ### Dependensi
 ```
@@ -36,7 +36,7 @@ Python 3.8+
 python Ein_code.py
 ```
 
-3. Output akan tersimpan sebagai `nama_tim.xlsx`
+3. Output akan tersimpan sebagai `Ein.xlsx`
 
 ### Struktur File
 ```
