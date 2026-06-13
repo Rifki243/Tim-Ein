@@ -1,4 +1,4 @@
-# MBG Tweet Classification — README
+# MBG Tweet Classification
 
 ## Case 1 BDC Internal 2026
 
